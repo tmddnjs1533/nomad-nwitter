@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { dbSerivece, storageService } from "../myBase";
+import { dbSerivece, storageService } from "../fBase";
 
 const Nweet = ({ nweetObj, isOwner }) => {
   const [editing, setEditing] = useState(false);

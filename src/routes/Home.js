@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-import { dbSerivece, storageService } from "../myBase";
+import { dbSerivece, storageService } from "../fBase";
 import Nweet from "components/Nweet";
 
 const Home = ({ userObj }) => {
